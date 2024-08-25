@@ -2,7 +2,7 @@
   "name": "projectbackend",
   "version": "1.0.0",
   "description": "a backend at chai auur code channel - youtube",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -13,5 +13,9 @@
     "chai"
   ],
   "author": "Adarsh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
 }
