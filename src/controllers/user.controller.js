@@ -283,7 +283,7 @@ const updateAccountDetails = asyncHandler(async(req,res)=>{
     .json(new ApiResponse(200, user, "Account details updated successfully"))
 })
 
-const upadateUserAvatar = asyncHandler(async(req,res) =>{
+const updateUserAvatar = asyncHandler(async(req,res) =>{
     const avatarLocalPath = req.file?.path
 
     if(!avatarLocalPath){
@@ -478,7 +478,7 @@ export {
     changeCurrentPassword,
     getCurrentUser,
     updateAccountDetails,
-    upadateUserAvatar,
+    updateUserAvatar,
     updateUserCoverImage,
     getUserChannelProfile,
     getWatchHistory
